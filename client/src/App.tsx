@@ -1,5 +1,5 @@
 import { Menu, Navbar, Sidebar } from './components/common';
-import { Home } from './pages';
+import { Home, Users } from './pages';
 import './styles/app.scss'
 
 //import Home from "./pages/home/Home";
@@ -53,7 +53,11 @@ function App() {
         {
           path: "/sidebar",
           element: <Sidebar/>,
-        }
+        },
+        {
+          path: "/users",
+          element: <Users />,
+        },
       ],
     },
     

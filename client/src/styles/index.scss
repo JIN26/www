@@ -1,4 +1,4 @@
-@import "./variables.scss";
+@import "./_variables.scss";
 @import "./responsive.scss";
 
 * {
@@ -13,16 +13,20 @@ a {
 }
 
 .main {
+  
   font-family: "Inter", sans-serif;
   background-color: $main-bg;
   color: $main-color;
+  min-width: 450px;
 }
 
 .container {
+  
   display: flex;
 }
 
 .menuContainer {
+  
   width: 250px;
   padding: 5px 20px;
   border-right: 2px solid $soft-bg;
