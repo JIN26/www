@@ -1,8 +1,6 @@
-import { Menu, Navbar, Sidebar } from './components/common';
-import { Home, Users } from './pages';
+import { Menu, Navbar } from './components/common';
+import { Home, Product, Products, User, Users } from './pages';
 import './styles/app.scss'
-
-//import Home from "./pages/home/Home";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 //import Users from "./pages/users/Users";
 //import Products from "./pages/products/Products";
@@ -50,25 +48,7 @@ function App() {
           path: "/",
           element: <Home />,
         },
-        {
-          path: "/sidebar",
-          element: <Sidebar/>,
-        },
-        {
-          path: "/users",
-          element: <Users />,
-        },
-      ],
-    },
-    
-  ]);
-
-  return <RouterProvider router={router} />;
-}
-
-export default App;
-
-/*
+          
         {
           path: "/users",
           element: <Users />,
@@ -85,6 +65,21 @@ export default App;
           path: "/products/:id",
           element: <Product />,
         },
+      ],
+    },
+    
+  ]);
+
+  return <RouterProvider router={router} />;
+}
+
+export default App;
+
+/*
+        
+        
+        
+        
 
 
         {
