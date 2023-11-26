@@ -83,8 +83,9 @@ const Users = () => {
       ) : (
         <DataTable slug="users" columns={columns} rows={data} />
       )} */}
-      {open && <Add slug="user" columns={columns} setOpen={setOpen} />}
+      {open && <Add slug="user" columns={columns} setOpen={setOpen} />} {/*key={} falta este props*/}
     </div>
+
   );
 };
 
