@@ -17,9 +17,9 @@ export const  menu = [
       listItems: [
         {
           id: 1,
-          title: "Usuarios",
-          url: "/users",
-          icon: "user.svg",
+          title: "Calendar",
+          url: "/",
+          icon: "calendar.svg",
         },
         {
           id: 2,
@@ -29,45 +29,15 @@ export const  menu = [
         },
         {
           id: 3,
+          title: "Usuarios",
+          url: "/users",
+          icon: "user.svg",
+        },
+        {
+          id: 4,
           title: "Orders",
           url: "/orders",
           icon: "order.svg",
-        },
-        {
-          id: 4,
-          title: "Posts",
-          url: "/posts",
-          icon: "post2.svg",
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: "general",
-      listItems: [
-        {
-          id: 1,
-          title: "Elements",
-          url: "/",
-          icon: "element.svg",
-        },
-        {
-          id: 2,
-          title: "Notes",
-          url: "/",
-          icon: "note.svg",
-        },
-        {
-          id: 3,
-          title: "Forms",
-          url: "/",
-          icon: "form.svg",
-        },
-        {
-          id: 4,
-          title: "Calendar",
-          url: "/",
-          icon: "calendar.svg",
         },
       ],
     },
@@ -87,20 +57,8 @@ export const  menu = [
           url: "/",
           icon: "backup.svg",
         },
-      ],
-    },
-    {
-      id: 5,
-      title: "analytics",
-      listItems: [
         {
-          id: 1,
-          title: "Charts",
-          url: "/",
-          icon: "chart.svg",
-        },
-        {
-          id: 2,
+          id: 3,
           title: "Logs",
           url: "/",
           icon: "log.svg",

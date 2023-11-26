@@ -2,6 +2,7 @@
 @import "./responsive.scss";
 
 * {
+  background: $main-bg;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,7 +16,6 @@ a {
 .main {
   height: 100vh;
   font-family: "Inter", sans-serif;
-  background-color: $main-bg;
   color: $main-color;
   min-width: 450px;
 }
