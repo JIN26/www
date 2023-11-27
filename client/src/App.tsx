@@ -1,6 +1,7 @@
 import { Menu, Navbar } from './components/common';
 import { Home, Product, Products, User, Users } from './pages';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { Login } from './pages/Login';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <div className="main">
         <Navbar />
         <div className="container">
-          
+
           <div className="menuContainer">
             <Menu />
           </div>
@@ -52,7 +53,10 @@ function App() {
         },
       ],
     },
-    
+    {
+      path: "/login",
+      element: <Login />,
+    },
   ]);
 
   return <RouterProvider router={router} />;
