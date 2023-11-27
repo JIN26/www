@@ -32,7 +32,6 @@ replay_pid*
 .vite/
 
 node_modules/
-node_modules
 dist
 dist-ssr
 *.local
