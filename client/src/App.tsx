@@ -1,5 +1,6 @@
 import { Menu, Navbar } from './components/common';
 import { Home, Product, Products, User, Users } from './pages';
+import { Login } from './pages/Login';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 // import './styles/app.scss'
 //import Users from "./pages/users/Users";
@@ -20,13 +21,13 @@ function App() {
   const Layout = () => {
     return (
       <div className="main">
-        <Navbar />  
+        <Navbar />
         <div className="container">
-          <div className="menuContainer"> 
+          <div className="menuContainer">
             <Menu />
           </div>
           <div className="contentContainer">
-            {/*<QueryClientProvider client={queryClient}>  
+            {/*<QueryClientProvider client={queryClient}>
             </QueryClientProvider>*/}
             <Outlet />
           </div>
@@ -45,7 +46,6 @@ function App() {
           path: "/",
           element: <Home />,
         },
-          
         {
           path: "/users",
           element: <Users />,
@@ -64,7 +64,11 @@ function App() {
         },
       ],
     },
-    
+    {
+
+      path: "/login",
+      element: <Login />,
+    },
   ]);
 
   return <RouterProvider router={router} />;
