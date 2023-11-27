@@ -6,3 +6,33 @@ $dark-bg: #222b3c;
 $main-color: white;
 $soft-color: #ddd;
 $dark-color: #2a3447;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*-Layout */
+
+$width-mobile: 375px;
+$width-desktop: 1440px;
+
+/*-Colors */
+
+/*--Primary */
+
+$primary: hsl(4, 100%, 67%);
+
+/*--Neutral */
+
+$neutral-dark: hsl(234, 29%, 20%);
+$neutral-Charcoal: hsl(235, 18%, 26%);
+$neutral-Grey: hsl(231, 7%, 60%);
+$neutral-white: hsl(0, 0%, 100%);
+
+/*-Typography*/
+
+/*--Font-size*/
+$size-paragraph: 16px;
+
+/*--Font*/
+
+$font-family: 'Roboto', sans-serif;
+// fonts.googleapis.com
