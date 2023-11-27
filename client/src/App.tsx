@@ -65,7 +65,6 @@ function App() {
       ],
     },
     {
-
       path: "/login",
       element: <Login />,
     },
