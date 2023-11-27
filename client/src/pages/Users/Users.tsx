@@ -80,11 +80,16 @@ const Users = () => {
 
       {/* {isLoading ? (
         "Loading..."
-      ) : (
+        ) : (
         <DataTable slug="users" columns={columns} rows={data} />
       )} */}
-      {open && <Add slug="user" columns={columns} setOpen={setOpen} />}
+      
+      {/* {userRows.map(todo => (
+        <h1>{todo.id}</h1>
+      ))} */}
+      {open && <Add slug="user" columns={columns} setOpen={setOpen} />} {/*key={} falta este props*/}
     </div>
+
   );
 };
 

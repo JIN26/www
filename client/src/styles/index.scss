@@ -15,22 +15,21 @@ a {
 .main {
   height: 100vh;
   font-family: "Inter", sans-serif;
-  background-color: $main-bg;
   color: $main-color;
   min-width: 450px;
 }
 
+body{
+  background: $main-bg;
+}
 .container {
-  
   display: flex;
 }
 
 .menuContainer {
-  
   width: 250px;
   padding: 5px 20px;
   border-right: 2px solid $soft-bg;
-
   @include lg{
     width: max-content;
   }

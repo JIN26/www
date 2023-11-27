@@ -1,7 +1,7 @@
 
 import { Single } from "../../components/common"
 import { singleUser } from "../../data"
-import "./user.scss"
+import "./User.scss"
 
 const User = () => {
 

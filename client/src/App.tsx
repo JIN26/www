@@ -1,13 +1,13 @@
 import { Menu, Navbar } from './components/common';
-import {Home, Product, Products, User, Users } from './pages';
-import './styles/app.scss'
+import { Home, Product, Products, User, Users } from './pages';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
-function App(){
+
+function App() {
   const Layout = () => {
     return (
       <div className="main">
-       <Navbar />  
+        <Navbar />
         <div className="container">
           
           <div className="menuContainer">
@@ -16,13 +16,11 @@ function App(){
 
           <div className="contentContainer">
             {/*<QueryClientProvider client={queryClient}>
-              
             </QueryClientProvider>*/}
             <Outlet />
           </div>
         </div>
         {/*<Footer />*/}
-        
       </div>
     );
   };
@@ -36,7 +34,6 @@ function App(){
           path: "/",
           element: <Home />,
         },
-          
         {
           path: "/users",
           element: <Users />,
@@ -55,6 +52,11 @@ function App(){
         },
       ],
     },
+    {
+
+      path: "/login",
+      element: <Login />,
+    },
   ]);
 
   return <RouterProvider router={router} />;
@@ -62,16 +64,4 @@ function App(){
 
 export default App;
 
-/*
-        
-        
-        
-        
 
-
-        {
-      path: "/login",
-      element: <Login />,
-    },
-
-*/

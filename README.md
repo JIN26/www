@@ -1,3 +1,14 @@
+# Proyecto
+ingresos
+egresos
+costo de eventos
+costo de mercaderia
+ingreso de salida de insumos
+pago nomina
+abonos
+saldos
+etc
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
