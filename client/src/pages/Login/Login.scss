@@ -1,0 +1,155 @@
+@use '../../styles/variables';
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 98vh;
+
+}
+
+.login-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    font-family: variables.$font-family;
+    background-color: variables.$neutral-white;
+    border-radius: 30px;
+    padding: 2rem 0rem;
+}
+
+.top-img{
+    display: none;
+}
+
+.login-section-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    min-height: 50%;
+    p{
+        font-size: variables.$size-paragraph;
+        color: variables.$neutral-Charcoal;
+        font-weight: 400;
+
+    }
+}
+
+.content-left{
+
+    width: 84%;
+}
+
+.login-section-right{
+    display: flex;
+    align-items: center;
+    img{
+        width: 100%;
+        height: auto;
+      }
+
+}
+
+// .title{
+//     font-size: 3.5rem;
+//     color: variables.$neutral-dark;
+// }
+
+ul{
+
+    padding: 0;
+    list-style: none;
+
+    li{
+        margin-top: 1rem;
+        align-items: center;
+        display: flex;
+        gap:1rem;
+        width: 100%;
+        height: 30px;
+        span{
+            display: block;
+            text-align: center;
+            color: variables.$neutral-white;
+            background-color: variables.$primary;
+            height: 20px;
+            width: 20px;
+            border-radius: 30px;
+        };
+        p{
+            color: red;
+        }
+    }
+}
+
+.form-container{
+
+    div{
+        b{
+            font-size: 12px;
+            color: variables.$neutral-dark;
+            position: relative;
+            bottom: 0;
+
+        }
+    }
+    input{
+
+        width: 90%;
+        height: 40px;
+        padding-left:  1rem;
+        margin-bottom: 1.5rem;
+        margin-top: 0;
+    }
+    button{
+        border: none;
+        border-radius: 5px;
+        width: 96%;
+        height: 50px;
+        font-size: 16px;
+        font-family: variables.$font-family;
+        font-weight: 700;
+        background-color: variables.$neutral-dark;
+        color: variables.$neutral-white;
+
+        &:hover{
+            background: rgb(255,82,120);
+            background: linear-gradient(90deg, rgba(255,82,120,1) 20%, rgba(255,102,70,1) 80%);
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width: 775px){
+    .title{
+        font-size: 3rem;
+    }
+    .login-section-right{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .title{
+        font-size: 3rem;
+    }
+    .login-section-right{
+        display: none;
+    }
+    .top-img{
+        display: block;
+        background-image: url('../../assets/illustration-sign-up-mobile.svg');
+        width: 100%;
+        height: 100px;
+        color: aliceblue;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    .login-container{
+        width: 100%;
+    }
+}
