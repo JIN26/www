@@ -11,7 +11,7 @@ const Login = () => {
 
                 </div>
                 <div className="content-left">
-                    <h1 className="title">Stay updated!</h1>
+                    <h1 className="title-login">Stay updated!</h1>
                     <p className="paragraph">
                         Join 60,000+ product managers receiving monthly updates on:
                     </p>
