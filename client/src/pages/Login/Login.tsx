@@ -4,7 +4,7 @@ import desktopImg from '../../assets/illustration-sign-up-desktop.svg'
 const Login = () => {
     const [isValid, _setIsValid] = useState(true);
   return (
-    <div className="container">
+    <div className="login">
         <div className="login-container">
             <div className="login-section-left">
                 <div className="top-img">

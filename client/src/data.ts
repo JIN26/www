@@ -35,8 +35,8 @@ export const  menu = [
         },
         {
           id: 4,
-          title: "Orders",
-          url: "/orders",
+          title: "Login",
+          url: "/Login",
           icon: "order.svg",
         },
       ],
@@ -66,7 +66,7 @@ export const  menu = [
       ],
     },
   ];
-  
+
   export const topDealUsers = [
     {
       id: 1,
@@ -118,7 +118,7 @@ export const  menu = [
       amount: "1.560",
     },
   ];
-  
+
   export const chartBoxUser = {
     color: "#8884d8",
     icon: "/userIcon.svg",
@@ -136,7 +136,7 @@ export const  menu = [
       { name: "Sat", users: 450 },
     ],
   };
-  
+
   export const chartBoxProduct = {
     color: "skyblue",
     icon: "/productIcon.svg",
@@ -188,7 +188,7 @@ export const  menu = [
       { name: "Sat", ratio: 450 },
     ],
   };
-  
+
   export const barChartBoxRevenue = {
     title: "Profit Earned",
     color: "#8884d8",
@@ -224,7 +224,7 @@ export const  menu = [
       },
     ],
   };
-  
+
   export const barChartBoxVisit = {
     title: "Total Visit",
     color: "#FF8042",
@@ -260,7 +260,7 @@ export const  menu = [
       },
     ],
   };
-  
+
   export const userRows = [
     {
       id: 1,
@@ -406,7 +406,7 @@ export const  menu = [
       createdAt: "01.02.2023",
     },
   ];
-  
+
   export const products = [
     {
       id: 1,
@@ -506,9 +506,9 @@ export const  menu = [
       inStock: true,
     },
   ];
-  
-  
-  
+
+
+
   export const singleUser = {
     id: 1,
     title: "John Doe",
